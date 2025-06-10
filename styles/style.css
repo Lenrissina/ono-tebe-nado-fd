@@ -38,7 +38,7 @@
   flex-flow: column nowrap;
   justify-self: end;
   max-width: 240px;
-  margin-right: 56px;
+  margin-right: 20px;
   color: #000;
   font-weight: 400;
   font-size: 18px;
@@ -47,8 +47,8 @@
 
 .header__logo {
   display: block;
-  width: 135px;
-  margin-top: 8px;
+  width: 136px;
+  margin-top: 7px;
 }
 
 /* -----------------cover----------------- */
@@ -107,9 +107,6 @@
   justify-content: space-between;
   align-items: center;
   padding: 0px 50px 50px 50px;
-}
-
-.cover__description-text {
   color: #fff;
   font-weight: 400;
   font-size: 22px;
@@ -119,18 +116,19 @@
   word-spacing: 18.6px;
 }
 
+.cover__description-text {
+}
+
 .bet-button {
   min-width: 256px;
   min-height: 51px;
   border: 1px solid #fff;
-  color: #fff;
   font-weight: 500;
-  font-size: 22px;
-  font-style: normal;
   line-height: normal;
   text-align: center;
-  text-transform: uppercase;
   background: transparent;
+  color: #fff;
+  text-transform: uppercase;
 }
 
 /* -----------------lots----------------- */
