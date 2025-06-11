@@ -19,30 +19,41 @@
   gap: 30px;
   padding-right: 44px;
   padding-left: 20px;
+  text-decoration: none;
+  list-style: none;
+}
+
+.header__links-list__item {
   list-style: circle;
 }
 
-.header__link_active {
-  text-decoration: none;
-  list-style-type: none;
+.header__links-list__item_active {
+  list-style: none;
 }
 
-.header__link {
+a.link {
   text-decoration-style: solid;
   text-decoration-thickness: 1px;
   text-underline-offset: 5px;
 }
 
-.header__address {
+a.link_active {
+  text-decoration: none;
+}
+
+.address {
   display: flex;
   flex-flow: column nowrap;
   justify-self: end;
   max-width: 240px;
-  margin-right: 20px;
   color: #000;
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
+}
+
+.header__address {
+  margin-right: 20px;
 }
 
 .header__logo {
@@ -114,9 +125,6 @@
   line-height: 28px;
   text-transform: uppercase;
   word-spacing: 18.6px;
-}
-
-.cover__description-text {
 }
 
 .bet-button {
@@ -265,15 +273,16 @@
   text-transform: uppercase;
 }
 
-.about-text {
+.about__text {
   color: #000;
   font-weight: 400;
   font-size: 20px;
   font-style: normal;
   line-height: 24px; /* 120% */
+  padding: 0px 5px 0px 1px;
 }
 
-.about-text__first-paragraph {
+.about__text-paragraph {
   margin-bottom: 24px;
 }
 
@@ -286,26 +295,12 @@
   align-items: center;
   width: 1100px;
   margin-bottom: 83px;
-  padding-top: 181px;
+  padding-top: 157px;
 }
 
 .footer__address {
-  display: flex;
-  flex-flow: column nowrap;
-  justify-self: end;
-  max-width: 240px;
-  margin-right: 79px;
-  color: #000;
-  font-weight: 400;
-  font-size: 18px;
-  font-style: normal;
+  margin-right: 75px;
   line-height: 24px;
-}
-
-.footer__link {
-  text-decoration-style: solid;
-  text-decoration-thickness: 1px;
-  text-underline-offset: 5px;
 }
 
 .footer__menu {
